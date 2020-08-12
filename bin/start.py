@@ -3,8 +3,11 @@
 import sys
 import os
 import time
-BASE_DIR = sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
+if not os.path.exists("%s/logs" %BASE_DIR):
+    os.mkdir("%s/logs" %BASE_DIR)
 
 from core import src
 
