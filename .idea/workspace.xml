@@ -26,8 +26,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d33210-c180-484f-b7d2-0cd1eb2066df" name="Default Changelist" comment="ADD: gitignore file">
+    <list default="true" id="10d33210-c180-484f-b7d2-0cd1eb2066df" name="Default Changelist" comment="ADD: x">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logger.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +68,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.start">
+    <configuration name="common_log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="program-init" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Python_code\program-init\lib\common_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="program_init" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,38 +112,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="program_init" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\program_init\core\src.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="program_init" />
+      <module name="program-init" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\dell\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conf" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -177,10 +181,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.start" />
+        <item itemvalue="Python.common_log" />
         <item itemvalue="Python.settings" />
         <item itemvalue="Python.logger" />
         <item itemvalue="Python.src" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +200,8 @@
       <updated>1597158130941</updated>
       <workItem from="1597158132040" duration="4152000" />
       <workItem from="1597162329490" duration="482000" />
-      <workItem from="1597194323255" duration="1037000" />
+      <workItem from="1597194323255" duration="16645000" />
+      <workItem from="1597281897138" duration="6046000" />
     </task>
     <task id="LOCAL-00001" summary="required.txt">
       <created>1597194660849</created>
@@ -212,11 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597195180914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ADD: x">
+      <created>1597195440426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597195440426</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -240,31 +255,82 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="required.txt" />
     <MESSAGE value="ADD: gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: gitignore file" />
+    <MESSAGE value="ADD: x" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: x" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="583" y="183" key="#Illuminated_Cloud" timestamp="1597281929774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="183" key="#Illuminated_Cloud/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597281929774" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597195352718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597195352718" />
+    <state x="-1144" y="16" key="#settings" timestamp="1597224471976">
+      <screen x="-1680" y="-80" width="1680" height="1010" />
+    </state>
+    <state x="-1144" y="16" key="#settings/0.0.1920.1040/-1680.-80.1680.1010@-1680.-80.1680.1010" timestamp="1597224471976" />
+    <state x="656" y="111" key="#src" timestamp="1597299011857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="111" key="#src/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597299011857" />
     <state x="656" y="111" key="#start" timestamp="1597195360063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="111" key="#start/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597195360063" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597195227437">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1597300040587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597195227437" />
+    <state width="1637" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.-80.1680.1010@-1680.-80.1680.1010" timestamp="1597224472010" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597300040587" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1597300040587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.-80.1680.1010@-1680.-80.1680.1010" timestamp="1597224472010" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597300040587" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1597300040587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.-80.1680.1010@-1680.-80.1680.1010" timestamp="1597224472010" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597300040587" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1597300040587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1637" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.-80.1680.1010@-1680.-80.1680.1010" timestamp="1597224472010" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597300040587" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597298492184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597298492184" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1597298492184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597298492184" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1597298492184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597298492184" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1597298492184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597298492184" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597195449297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1680.-80.1680.1010@0.0.1920.1040" timestamp="1597195449297" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/program_init$start.coverage" NAME="start Coverage Results" MODIFIED="1597195403050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/program_init$start.coverage" NAME="start Coverage Results" MODIFIED="1597300980548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/program_init$main.coverage" NAME="main Coverage Results" MODIFIED="1597158913290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
     <SUITE FILE_PATH="coverage/program_init$logger.coverage" NAME="logger Coverage Results" MODIFIED="1597161954876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
     <SUITE FILE_PATH="coverage/program_init$src.coverage" NAME="src Coverage Results" MODIFIED="1597161849695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
-    <SUITE FILE_PATH="coverage/program_init$settings.coverage" NAME="settings Coverage Results" MODIFIED="1597162021099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conf" />
+    <SUITE FILE_PATH="coverage/program_init$log_comm.coverage" NAME="log_comm Coverage Results" MODIFIED="1597298786147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/program_init$settings.coverage" NAME="settings Coverage Results" MODIFIED="1597224471998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conf" />
   </component>
 </project>

@@ -1,28 +1,28 @@
 # -*- coding: utf-8 -*-
 # @Author: BigHead
 
-from lib import logger
+import logging.config
+from lib import common_log
 
+logging.config.dictConfig(common_log.LOGGING_DIC)
+logger = logging.getLogger(__name__)  # 生成一个log实例
 
 
 def f1():
-    print('登录功能')
     logger.info('登录了')
 
 
 def f2():
-    print('注册功能')
     logger.info('注册了')
 
 
 def f3():
-    print('注销功能')
     logger.info('注销了')
 
 
 def f4():
-    print('退出功能')
     logger.info('退出了')
+
 
 func_list = {
     "0": ['登录', f1],
@@ -30,6 +30,7 @@ func_list = {
     "2": ['注销', f3],
     "3": ['退出', f4]
 }
+
 
 def run():
     while True:
