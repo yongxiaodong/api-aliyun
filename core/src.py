@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: BigHead
 
-import logging.config
 from lib import common_log
-
-logging.config.dictConfig(common_log.LOGGING_DIC)
-logger = logging.getLogger(__name__)  # 生成一个log实例
+logger = common_log.get_logger(__name__)
 
 
 def f1():
@@ -44,4 +41,16 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+
+
+
+
+
+
+
+
+
+
+
 

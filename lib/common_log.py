@@ -58,9 +58,9 @@ LOGGING_DIC = {
             'class': 'logging.handlers.RotatingFileHandler',  # 保存到文件
             'formatter': 'standard',
             'filename': logfile_path,  # 日志文件
-            'maxBytes': 1024*1024*5,  # 日志大小 5M
+            'maxBytes': 1024*1024*50,  # 日志大小 50M
             'backupCount': 10,
-            'encoding': 'utf-8',  # 日志文件的编码，再也不用担心中文log乱码了
+            'encoding': 'utf-8',  # 日志文件的编码
         },
     },
     'loggers': {
@@ -78,6 +78,12 @@ def load_my_logging_cfg():
     logging.config.dictConfig(LOGGING_DIC)  # 导入上面定义的logging配置
     logger = logging.getLogger(__name__)  # 生成一个log实例
     logger.info('It works!')  # 记录该文件的运行状态
+
+
+def get_logger(name):
+    logging.config.dictConfig(LOGGING_DIC)  # 导入上面定义的logging配置
+    logger = logging.getLogger(name)  # 生成一个log实例
+    return logger
 
 
 if __name__ == '__main__':
