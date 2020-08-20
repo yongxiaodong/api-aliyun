@@ -2,6 +2,7 @@
 # @Author: BigHead
 
 from lib import common_log
+
 logger = common_log.get_logger(__name__)
 
 
@@ -41,16 +42,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
-
-
-
-
-
-
-
-
-
-
-
-
