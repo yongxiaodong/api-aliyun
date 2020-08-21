@@ -4,3 +4,4 @@ aliyun-python-sdk-ecs == 4.19.4
 aliyun-python-sdk-rds == 2.4.8
 aliyun-python-sdk-slb == 3.2.17
 aliyun-python-sdk-r-kvstore == 2.5.1
+pytz == 2020.1
