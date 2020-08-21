@@ -1,0 +1,46 @@
+# This is the QPS usage of RDS, unit: float
+
+QPS {{ data.QPS }}
+
+# This is the QPS usage of RDS, unit:float
+TPS {{ data.TPS }}
+
+
+# MySQL active connections, unit: float
+active_session {{ data.active_session}}
+
+# MySQL total number of connections, unit: float
+total_session {{ data.total_session }}
+
+# buffer read hit rate, unit:percent
+buffer_read_hit {{ data.ibuf_read_hit }}
+
+
+# buffer utilization, unit:percent
+buffer_utilization {{ data.ibuf_use_ratio }}
+
+# buffer dirty blocks percentage, unit:percent
+bufer_dirty_ratio {{ data.ibuf_dirty_ratio }}
+
+# The amount of data read by innodb per second ,unit: KB
+innodb_read_KB {{ data.inno_data_read }}
+
+
+# The amount of data write by innodb per second ,unit: KB
+innodb_write_KB {{ data.inno_data_written }}
+
+# MySQL Logsize, unit:bytes
+mysql_logsize {{ data.LogSize }}
+
+# MySQL datasize, unit:bytes
+datasize {{ data.DataSize }}
+
+
+# MySQL diskused, unit:bytes
+diskused {{ data.DiskUsed }}
+
+# Redis redis_memory_usage, Due to Alibaba Cloud API restrictions, it may be 5 minutes slower than the current time
+redis_memory_usage {{ data.redis_memory_usage }}
+
+
+

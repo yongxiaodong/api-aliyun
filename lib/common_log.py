@@ -19,10 +19,8 @@ simple_format = '[%(levelname)s][%(asctime)s][%(filename)s:%(lineno)d]%(message)
 id_simple_format = '[%(levelname)s][%(asctime)s] %(message)s'
 
 # 定义日志输出格式 结束
-
-logfile_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'logs')  # log文件的目录
-
-
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+logfile_dir = os.path.join(BASE_DIR, 'logs')  # log文件的目录
 logfile_name = 'run.log'  # log文件名
 
 # 如果不存在定义的日志目录就创建一个
