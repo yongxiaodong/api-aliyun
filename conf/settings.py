@@ -4,9 +4,15 @@
 import os
 
 # 如果没有redisID 或则rdsid 写 None
-accessKeyId = 'LTAI4G1w1LRDv9PYrspsSzcL'
-accessSecret = 'vGlRFzfqj6hUuhXh6c5dnIEU41VI1K'
+
+# 阿里云accessID
+accessKeyId = 'sdfgsdfgsd'
+# secret
+accessSecret = 'dfgdfg'
+# 服务器区域
 zone = 'cn-chengdu'
-rds1 = 'rm-2vcwg80o9zl8zee8r'
+#rds的实例id
+rds1 = 'rm-'
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-REDIS_ID = 'r-2vczdns3hq4c60ja0w'
+# redis的实例id
+REDIS_ID = 'r-'
